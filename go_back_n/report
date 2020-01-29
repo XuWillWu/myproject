@@ -1,0 +1,42 @@
+
+
+Base line: 25ms 131ms 304ms
+
+No Delay 1: 1021ms 4997ms 12053ms
+
+No Delay 2: 1604ms 9990ms 26888ms
+
+No Dealy 3: 3144ms 20748ms 47348ms
+
+No Delay 4: takes too much time to run...
+
+No Delay 5: takes too much time to run...
+
+No Discard 1: 170ms 891ms 2823ms
+
+No Discard 2: 330ms 1738ms 4440ms
+
+No Discard 3: 425ms 2372ms 5727ms
+
+No Discard 4: 642ms 3221ms 8137ms
+
+No Discard 5: 808ms 4229ms 11087ms
+
+Both 1: 1125ms 5586ms 12609ms
+
+Both 2: 1713ms 10038ms 26811ms
+
+Both 3: 3245ms 20789ms 49365ms
+
+Both 4: 1477ms 6294ms 15192ms
+
+Both 5: 1795ms 10082ms 26879ms
+
+Both 6: 3309ms 20871ms 47382ms
+
+
+Q:How do changes in packet delay, probability of loss impact the transmission time?
+A:Overall both of them enlarge transmission time when they grow. Packet loss has a bigger impact by increasing trans-time exponentially while delay increases trans-time linearly.
+
+Q:How do changes in file size (number of packets sent) impact transmission time?
+A:The number of pkt sent has a large impact at first, but the impact eliminates itself when the number of file increases.
