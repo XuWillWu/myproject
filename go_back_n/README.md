@@ -11,9 +11,4 @@ use "make" to compile
  2. on Receiver in ubuntu1804-002: ./receiver.sh ubuntu1804-008 8762 8763 out.txt
  3. on Sender in ubuntu1804-004 :./sender.sh ubuntu1804-008 8760 8761 small.txt
 
-
- transmistion time is in report and chart is in graph
-
- there arre four log file: arrival.log, time.log, ack.log, seqnum.log
-
- chart is in gragh.pdf
+In practical, there is no ned to use emulator, therefore change the port of emulator by port of receiver
